@@ -45,8 +45,8 @@ export default class AddUser extends Component {
         if(this.props.hienThiForm === true){
                 return ( 
                     <div className="">
-                    {this.showBtn()}
-                    {this.showFormAdd()}
+                        {this.showBtn()}
+                        {this.showFormAdd()}
                     </div>       
                 )    
         }

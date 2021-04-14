@@ -51,7 +51,7 @@ export default class Search extends Component {
             )
         }
     }
-
+    
     test = () => {
         if(this.props.hienThiForm === false){
             console.log('success');

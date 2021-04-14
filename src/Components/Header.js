@@ -5,7 +5,7 @@ export default class Header extends Component {
         return (
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
-                <h1 className="display-3 text-center">Trình quản trị</h1>
+                <h1 className="display-3 text-center">Trình quản trị TravelTL</h1>
                 <hr />
                 </div>
             </div>
