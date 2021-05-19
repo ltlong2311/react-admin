@@ -152,6 +152,7 @@ function App(props) {
             changeEditUserStatus={() => changeEditUserStatus()}
           />
           <AddUser
+            changeClick={() => changeClick()}
             add={(name, tel, Permission) =>
               getNewUserData(name, tel, Permission)
             }

@@ -5,7 +5,7 @@ export default class Footer extends Component {
         return (
             <footer className="bg-dark text-white" id="footer">
             <div className="container">
-                <p className="text-center pt-5" >© Travel TL 2021. Made by TL.</p>
+                <p className="text-center pt-5" >©React Admin 2019. Made by LTL.</p>
             </div>
             </footer>
            

@@ -51,6 +51,10 @@ export default class AddUser extends Component {
                 )    
         }
     }
+    addUser = () => {
+        this.props.add(this.state.name,this.state.tel,this.state.Permission);
+        this.props.changeClick();
+    }
     showFormAdd = () => {
         if(this.state.stt === true){
                 return ( 
@@ -74,7 +78,7 @@ export default class AddUser extends Component {
                                 </select>
                                 </div> 
                                 <div className="form-group mt-2 mb-2">
-                                <input type="reset" className="btn btn-primary btn-block" onClick={()=>this.props.add(this.state.name,this.state.tel,this.state.Permission)} value="Thêm mới"/>                                    
+                                <input type="reset" className="btn btn-primary btn-block" onClick={()=>this.addUser()} value="Thêm mới"/>                                    
                                 </div>
                             </div>
                         </div>
