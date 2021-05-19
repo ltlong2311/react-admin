@@ -22,12 +22,12 @@ export default class TableDataRow extends Component {
                 <td>{this.permissionShow()}</td>
                 <td>
                     <div className="btn-group">
-                    <div className="btn btn-warning sua" onClick={()=>this.editClick()}>
-                        <i className="fa fa-edit"> Sửa</i>
-                    </div>
-                    <div className="btn btn-danger sua" onClick={(idUser)=>this.deleteBtnClick(this.props.id)}>
-                        <i className="far fa-trash-alt"> Xóa</i>
-                    </div>
+                        <div className="btn btn-warning sua" onClick={()=>this.editClick()}>
+                            <i className="fa fa-edit"> Sửa</i>
+                        </div>
+                        <div className="btn btn-danger sua" onClick={(idUser)=>this.deleteBtnClick(this.props.id)}>
+                            <i className="far fa-trash-alt"> Xóa</i>
+                        </div>
                     </div>
                 </td>
                 <td>{"#"+this.props.id}</td>
